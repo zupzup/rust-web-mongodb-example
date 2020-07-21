@@ -27,6 +27,6 @@ lint:
 	cargo clippy --all-targets --all-features -- -D warnings
 
 dev:
-	@RUN_ENV=Development cargo run
+	@cargo run
 
 .PHONY: build test docs style-check lint
